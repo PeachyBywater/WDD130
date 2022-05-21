@@ -1,137 +1,197 @@
-    div.content{
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat+Alternates:wght@300&family=Montserrat:wght@200&family=Special+Elite&display=swap');
+
+.home-title{
+    font-family: 'Special Elite', 'Cedarville Cursive', cursive;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg h2{
+    font-family: 'Special Elite', 'Cedarville Cursive', cursive;
+}
+
+div.content{
+    font-family: 'Montserrat','Montserrat Alternates', sans-serif;
     max-width: 1600px;
-    }
-    
-    #content{
+    font-size: 22px;
+}
+
+#content{
     margin: 0 auto;
-    }
-    
-    nav a{
-        text-align: center;
-    }
-    
-    #hero-msg h1, #hero-msg h4{
-        text-align: center;
-    }
-    
-    .button-box{
-        text-align: center;
-    }
-    
-    main section{
-        text-align:center;
-    }
+}
 
-    #background{
-        height: 725px;
-    }
+nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+}
 
-    body{
-        background-color: #ffffff;
-    }
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
 
-    header{
-        background-color: #02223c;
-    }
+.button-box{
+    text-align: center;
+}
 
-    nav a:hover{
-        background-color: white;
-    }
+main section{
+    text-align:center;
+}
 
-    .book, .join{
-        background-color: #a8dadc;
-    }
+#background{
+    height: 725px;
+}
 
-    .book:hover, .join:hover{
-        background-color: white;
-    }
+body{
+    background-color: #ffffff;
+    font-family: Montserrat, Montserrat Alternates, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 
-    #background{
-        background-color: #bee3db;
-    }
-     
-    .msg{
-       background-color: #a8dadc;
-    }
+header{
+    background-color: #02223c;
+}
 
-    footer{
-       background-color: white;
-    }
+nav a:hover{
+    background-color: white;
+}
 
-    nav a{
-        color: white;
-    }
+.book, .join{
+    font-size: 18px;
+    background-color: #a8dadc;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 
-    nav a:hover{
-        color: #2ec4b6;
-    }
+.book:hover, .join:hover{
+    background-color: white;
+}
 
-    .home-title{
-        color: black;
-    }
+#background{
+    background-color: #bee3db;
+}
+ 
+.msg{
+    background-color: #a8dadc;
+    line-height: 1.5em;
+    padding: 35px;
+}
 
-    h4{
-        color: black;
-    }
+footer{
+   background-color: white;
+   padding: 25px 50px;
+   margin-top: 50px;
+}
 
-    .book, .join{
-        color: #a8dadc;
-    }
+nav a{
+    color: white;
+}
 
-    .book:hover, .join:hover{
-        color: #2ec4b6;
-    }
+nav a:hover{
+    color: #2ec4b6;
+}
 
-    .msg h2{
-        color: black;
-    }
+.home-title{
+    color: black;
+}
 
-    .msg p{
-        color: black;
-    }
+h4{
+    color: black;
+}
 
-    footer h3{
-        color: black;
-    }
+.book, .join{
+    color: #a8dadc;
+}
 
-    footer a{
-        color: black;
-    }
+.book:hover, .join:hover{
+    color: #2ec4b6;
+}
 
-    footer a:hover{
-        background-color: white;
-    }
+.msg h2{
+    color: black;
+}
 
-    .logo{
-        width: 80px;
-    }
+.msg p{
+    font-size: .8em;
+    color: black;
+    padding-bottom: 15px;
+}
 
-    .icon{
-        width: 80px;
-    }
+footer h3{
+    color: black;
+}
 
-    #hero-img{
-        width: 100%;
-    }
+footer a{
+    color: black;
+}
 
-    nav a{
-        text-align: center;
-        color: #ffffff;
-        text-decoration: none;
-    }
+footer a:hover{
+    background-color: white;
+}
 
-    .book, .join{
-        text-align: center;
-        color: #ffffff;
-        text-decoration: none;
-    }
+.logo{
+    width: 80px;
+}
 
-    footer a{
-        text-align: center;
-        color: #011627;
-        text-decoration: none;
-    }
-    
-    footer h3 a:hover{
-        text-decoration: underline;
-    }
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+nav a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+}
+
+.book, .join{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a{
+    text-align: center;
+    color: #011627;
+    text-decoration: none;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #a8dadc;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 200px;
+}
