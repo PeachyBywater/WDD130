@@ -7,7 +7,8 @@ header{
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #logo_link{
@@ -84,6 +85,7 @@ div.content{
     font-family: 'Montserrat','Montserrat Alternates', sans-serif;
     max-width: 1600px;
     font-size: 22px;
+    x
 }
 
 #content{
@@ -289,6 +291,8 @@ footer .social img{
 main section img{
     box-sizing: border-box;
 }
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
