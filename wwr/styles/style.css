@@ -293,7 +293,7 @@ main section img{
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, main.home-grid {
         display: block;
         height: auto;
         flex-direction: column;
@@ -313,6 +313,7 @@ main section img{
     }
     #hero-msg h4 {
         display: none;
+    
     }
     .home-title {
         font-size: 25px;
@@ -329,7 +330,7 @@ main section img{
     .mountains, .msg {
         width: 80%;
         display: block;
-        margin: 0 auto;
+        margin: 0 auto
     }
     footer {
         margin-top: 25px;
