@@ -293,115 +293,153 @@ main section img{
     box-sizing: border-box;
 }
 
-footer a{
-    text-align: center;
-    color: #011627;
-    text-decoration: none;
-}
-
-footer h3 a:hover{
-    text-decoration: underline;
-}
-
 
 /* css for second page */
 
-#nextcontent{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: auto;
-    height: fit-content;
+#riversandfaqsimg{
     width: 100%;
 }
 
-header{
+#rivers{
     display: grid;
-    grid-template-columns: 150px auto;
-
+    grid-template-columns: 1fr 1fr;
 }
 
-#riversfaqs{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: bolder;
-}
-
-.riverbox{
+h1.riverbox{
+    font-size: 1.5em;
+    font-weight: bold;
     background-color: #a8dadc;
-    text-align: center;
     color: #ffffff;
-    width: 400px;
-    height: 60px;
-    padding-top: 20px;
-    margin-left: auto;
-    border: 20px 20px 20px
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 770px;
 }
 
-/*#riversandfaqsimg{
-    max-width: 100%;
-    
-}*/
-
-.rivers{
+div.salmonriver img{
+    margin-left: 50%;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
-.salmonriver{
+div.desolationandgraycanyon img{
     margin-left: 50%;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    height: auto;
 }
 
-.desolationandgraycanyon{
+div.grandcanyon img{
     margin-left: 50%;
+    padding: 20px 20px 20px 20px;
+    width: 500px;
+    height: auto;
 }
 
-.grandcanyon{
-    margin-left: 50%;
+h2.idahoriver{
+    
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #a8dadc;
+    color: #ffffff;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    padding-top: 28px;
+    margin-left: 770px;
 }
 
-h2, h3, h5 {
-    margin-left: 50%;
-    font-size: 30px;
-
+h3.utahcanyon{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #a8dadc;
+    color: #ffffff;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    padding-top: 28px;
+    margin-left: 770px;
 }
 
-p{
-    margin-left: 50%;
+h5.arizonacanyon{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #a8dadc;
+    color: #ffffff;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    padding-top: 28px;
+    margin-left: 770px;
+}
+
+.salmonriverinfo p{
+    text-align: justify;
+    padding-top: 28px;
+    margin-left: 720px;
+    width: 400px;
+    text-indent: 50px;
+    line-height: 1.5em;
+}
+
+.utahcanyoninfo p{
+    text-align: justify;
+    padding-top: 28px;
+    margin-left: 720px;
+    width: 400px;
+    text-indent: 50px;
+    line-height:1.5em;
+}
+
+.grandcanyoninfo p{
+    text-align: justify;
+    padding-top: 28px;
+    margin-left: 720px;
+    width: 400px;
+    text-indent: 50px;
+    line-height:1.5em;
+}
+
+.info h6{
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #a8dadc;
+    color: #ffffff;
+    width: 300px;
+    height: 80px;
     text-align: justify;
 }
 
 h6{
-    font-size: 30px;
-    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.info{
-    background-color: #bee3db;
-    padding: 40px 40px;
-    border-left: 80px;
-    border-right: 80px;
-    margin-top: 40px;
-    margin-left: -40px;
-    width: 500px;
+
+.thirdbackground {
+    background-color: #a8dadc;
+    color: white;
+    width: 400px;
+    height: auto;
+    padding: 20px 30px 25px 30px;
+    margin-left: 50px;  
+    grid-column: 1/2;
 }
+
 #one{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
-    color: #ffffff;
-    margin: auto;
+    text-align: justify;
+    
 }
 
 #two{
     font-size: 1em;
-    color: #ffffff;
-    margin: auto;
+    text-align: justify;
+    text-indent: 50px;
 }
 
-#thirdbackground{
-    margin-left: 100px;
-    margin-top: auto;
-}
 
 @media screen and (max-width: 900px) {
     #hero, main.home-grid {
@@ -448,14 +486,22 @@ h6{
     }
 
 
-/*
-#riversandfaqs-img{
-    width: 100%;   
+ /*   
 }
-
 header{
     display: grid; 
     grid-template-columns: 150px auto;
+}
+
+#riverbox{
+    background-color: whitesmoke;
+    opacity: .60;
+    margin-top: 700px;
+    margin-left: 400px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
 }
 
 nav{
@@ -469,30 +515,13 @@ nav{
     align-self: center;
 }
 
-
-
-
-.riverbox{
-    color: white;
-    background-color: #a8dadc;
-    margin-top: 20px;
-    margin-left: auto;
-    width: 200px;
-    height: 50px;
-    text-align: center;
-    padding-top: 16px;
-}
-
 #riversandfaqs{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
     padding-right: 0px;
-    z-index: -1;
-    width: auto;
-    height: auto;
 }
 
 #riversandfaqs-box{
@@ -504,33 +533,28 @@ nav{
 
 #riversandfaqs-img{
     width: 100%;
+    
 }
 
 #riversandfaqs-msg{
-    position: relative;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 1/2;
+    margin-top: 20px;
     text-align: center;
     width: 100%;
     height: auto;
-    z-index: 1;
-    color: #ffffff;
 }
 
 main.rivers-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column: 1/2;
+    grid-template-columns: repeat(10,1fr);
+    grid-column: 1/11;
     grid-row: auto
 }
 
 p{
     text-align: justify;
-}
-
-#nextcontent{
-    height:fit-content;
-    width: 100%;
+    
 }
 
 .salmonriver-card{
@@ -543,8 +567,12 @@ p{
 h3{
     color: #ffffff;
     font-size: 2em;
+    
 }
 
+h2 p{
+    z-index: 1;
+}
 
 .desolationgrayriver-card{
     width: 100%;
@@ -558,6 +586,13 @@ h3{
     grid-row: 4/4;
 }
 
+.info{
+    background-color: #bee3db;
+    margin-top: 40px;
+    margin-left: -40px;
+    padding: 40px 40px;
+    width: 500px;
+}
 
 #one{
     font-size: 1.5em;
@@ -566,19 +601,5 @@ h3{
 }
 
 #thirdbackground{
-    margin-left: 40px;
-    padding-left: 30px;
-    height: auto;
-    width: auto;
-}
-
-.secondbackground img{
-    margin-bottom: 800px;
-}
-
-.salmonriver img{
-    display:grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-column-start: 9;
-    grid-column-end: 10;
+    padding-left: 3 0px;
 }*/
