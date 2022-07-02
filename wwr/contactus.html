@@ -76,7 +76,7 @@
     </style>
 </head>
 <body>
-    </div>
+    <div id="'feedback"></div>
     <form action="/my-handling-form-page" method="post">
         <ul>
             <li>
@@ -99,9 +99,7 @@
             </li>
         </ul>
     </form>
-    <div id="'feedback">
-        <script type="text/javascript">
-            
+        <script>
             // get the feedback div element so we can do something with it.
             const feedbackElement = document.getElementById('feedback');
             // get the form so we can read what was entered in it.
@@ -118,6 +116,5 @@
                 document.body.classList.toggle('moveDown');
             });
         </script>
-   
 </body>
 </html>
