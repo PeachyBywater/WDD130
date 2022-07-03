@@ -297,9 +297,11 @@ main section img{
 
 /* css for second page */
 
+
 .rivers{
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 header{
@@ -341,25 +343,19 @@ h2.idahoriver{
     width: 500px;
     height: 50px;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 197px;
     margin-top: -30px;
     padding-top: 25px;
     text-decoration: overline;
 }
 
 .salmonriverinfo p{
+    padding-left: 90px;
+    padding-right: 100px;
+    width: 80%;
     text-align: justify;
-    padding-top: 28px;
-    margin-left: 250px;
-    width: 100%;
-    text-indent: 50px;
-    line-height: 1.5em;
-    }
-
-div.salmonriverinfo{
-    width: 100%;
-    
 }
+
 
 h1.riverbox{
     font-size: 2em;
@@ -391,7 +387,7 @@ h3.utahcanyon{
     width: 500px;
     height: 50px;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 197px;
     margin-top: -30px;
     padding-top: 25px;
    
@@ -406,7 +402,7 @@ h5.arizonacanyon{
     width: 500px;
     height: 50px;
     text-align: center;
-    margin-left: 400px;
+    margin-left: 197px;
     margin-top: -30px;
     padding-top: 25px;
 }
@@ -418,20 +414,10 @@ div.grandcanyon img{
     height: auto;
 }
 
-.salmonriverinfo p{
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-left: 160px;
-    margin-right: ;
-    text-align: justify;
-    width: 60%;
-    
-}
-
 p{
-    padding-left: 250px;
+    padding-left: 90px;
     padding-right: 100px;
-    width: 60%;
+    width: 80%;
     text-align: justify;
 }
 
@@ -493,6 +479,39 @@ h6{
     height: auto;
 }
 
+.utahcanyoninfo{
+    border-style: solid;
+    border-color: #a8dadc;
+    border-width: medium;
+    width:auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.grandcanyoninfo{
+    border-style: solid;
+    border-color: #a8dadc;
+    border-width: medium;
+    width:auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.salmonriverinfo{
+    border-style: solid;
+    border-color: #a8dadc;
+    border-width: medium;
+    width:auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.desolationgraycanyon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /*#riversandfaqsimg{
     width: 100%;
 }
