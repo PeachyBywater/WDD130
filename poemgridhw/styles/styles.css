@@ -1,0 +1,10 @@
+#block1 {
+    width: 50%;
+    margin-right: auto;
+}
+
+#block2 {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
