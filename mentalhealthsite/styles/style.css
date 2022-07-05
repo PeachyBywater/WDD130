@@ -179,10 +179,9 @@ footer a:hover{
 }
 
 @media screen and (max-width: 900px) {
-    #hero, main.home-grid {
+    #hero, .home-grid {
         display: block;
         height: auto;
-        flex-direction: column;
     }
     nav, footer {
         flex-direction: column;
@@ -199,7 +198,6 @@ footer a:hover{
     }
     #hero-msg h4 {
         display: none;
-    
     }
     .home-title {
         font-size: 25px;
@@ -208,7 +206,6 @@ footer a:hover{
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
-        flex-direction: column;
     }
     #background {
         display: none;
@@ -216,8 +213,10 @@ footer a:hover{
     .mountains, .msg {
         width: 80%;
         display: block;
-        margin: 0 auto
+        margin: 0 auto;
     }
     footer {
         margin-top: 25px;
     }
+}
+            
