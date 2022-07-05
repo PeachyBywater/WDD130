@@ -1,6 +1,6 @@
 header{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 100px;
     background-color: #FFDE2E;
     border: white;
@@ -36,12 +36,13 @@ nav a:hover{
 }
 
 #hero-box{
-    grid-column: 3/4;
-    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 #hero-img{
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 20px;
     border-style: double;
@@ -49,14 +50,15 @@ nav a:hover{
     border-color: #F51720;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
+    grid-column: 2/3;
     }
 
 #hero-msg{
-    grid-column: 3/4;
-    grid-row: 2/4;
     margin-top: 80px;
-    margin-left: 40px;
+    margin-left: 520px;
     width: 200px;
+    align-content: center;
       
 }
 
@@ -177,6 +179,7 @@ footer a{
 footer a:hover{
     background-color: #F8D210;
 }
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
