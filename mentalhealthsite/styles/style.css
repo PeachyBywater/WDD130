@@ -102,7 +102,7 @@ p{
 .hotline-card{
     display:grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .card-img{
@@ -150,3 +150,74 @@ p{
     text-align: justify;
     line-height: 25px;
 }
+
+footer{
+    background-color: #FFDE2E;
+    border: white;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #F8D210;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, main.home-grid {
+        display: block;
+        height: auto;
+        flex-direction: column;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+        flex-direction: column;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto
+    }
+    footer {
+        margin-top: 25px;
+    }
