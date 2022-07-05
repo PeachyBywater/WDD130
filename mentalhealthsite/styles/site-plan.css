@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: "Patrick Hand";
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: ;  /* headlines on a white background */ 
-  --headline-color-on-color: ; /* headlines on a colored background */ 
-  --paragraph-color-on-white: ; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: ; /* paragraph text on a colored background */ 
+  --headline-color-on-white: #FA26A0;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: navy; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: white  ;
-  --nav-link-color: ;
-  --nav-background-color: ;
+  --nav-link-color: white;
+  --nav-background-color: #F8D210;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: ;
+  --nav-hover-background-color: #FFED8A;
 }
 
 
