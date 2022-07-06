@@ -175,6 +175,18 @@ main section img {
     box-sizing: border-box;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 /* CSS for 1st subpage */
 
 .disclaimer-card p{
@@ -195,22 +207,12 @@ main section img {
     margin-right: auto;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
 
-.column img{
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .column{
-        flex: 100%;
-        max-width: 100%;
+        flex: 50%;
+        max-width: 50%;
     }
     .home-grid {
         display: block;
