@@ -196,6 +196,93 @@ main section img {
     margin-right: auto;
 }
 
+/* CSS for 2nd subpage */
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* On mouse-over */
+  .btn:hover {background: #eee;}
+  
+  .register {color:#F51720}
+  .findforum {color: #F8D210;}
+  .moderator {color: #2FF3E0;}
+
+   
+.register{
+    color: #F51720;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.register:hover{
+    background-color: #F51720;
+    color: white;
+}
+.findforum{
+    color:#F8D210;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.findforum:hover{
+    background-color: #F8D210;
+    color: white;
+}
+
+.moderator{
+    color: #2FF3E0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.moderator:hover{
+    background-color: #2FF3E0;
+    color: white;
+}
+
+div.button-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 50px;
+ 
+}
+
+div.button-box .register{
+    grid-column: 2;
+    grid-row: 1;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+div.button-box .findforum{
+    grid-column: 2;
+    grid-row: 2;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+div.button-box .moderator{
+    grid-column: 2;
+    grid-row: 3;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
 
 @media screen and (max-width: 900px) {
     .home-grid {
