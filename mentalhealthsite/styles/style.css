@@ -186,6 +186,15 @@ main section img {
     margin-right: auto;
 }
 
+.forum-card p{
+    text-align: justify;
+    width: 900px;
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 900px) {
     .home-grid {
         display: block;
