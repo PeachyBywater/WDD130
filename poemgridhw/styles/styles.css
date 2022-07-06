@@ -3,18 +3,26 @@
 .block1 {
     width: 50%;
     margin-right: auto;
+    border-style: solid;
+    border-color: black;
+
 }
 
 .block2, .block4 {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+    border-style: solid;
+    border-color: black;
 }
 
 .block3{
     width: 50%;
     margin-left: auto;
+    border-style: solid;
+    border-color: black;
 }
+
 
 p:nth-of-type(1){
     text-align: left;
