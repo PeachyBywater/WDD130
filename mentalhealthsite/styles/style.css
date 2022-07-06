@@ -283,6 +283,19 @@ div.button-box .moderator{
     margin-right: auto;
     margin-bottom: auto;
 }
+/* css for second subpage*/
+
+.forum-card img{
+    width: 20%;
+    border-color: #F8D210;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 10px;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 50px;
+
+}
 
 @media screen and (max-width: 900px) {
     .home-grid {
