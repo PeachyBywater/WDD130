@@ -181,6 +181,12 @@ main section img {
     padding: 0 4px;
 }
 
+.column h2{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 .column img{
     margin-top: 8px;
     vertical-align: middle;
