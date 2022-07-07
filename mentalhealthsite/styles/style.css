@@ -195,7 +195,7 @@ main section img {
     border-radius: 20px;
     border-style: double;
     border-width: 10px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: auto;
 }
 
@@ -203,7 +203,7 @@ main section img {
     color:#FFDE2E;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 42%;
-    margin-top: -18%;
+    margin-top: -17%;
     text-decoration: underline;
 
 }
@@ -231,7 +231,7 @@ main section img {
     border-radius: 20px;
     border-style: double;
     border-width: 10px;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-left: auto;
 }
 
@@ -248,7 +248,7 @@ main section img {
     width: 600px;
     margin-right: 40px;
     margin-left: 250px;
-    margin-top: -20px;
+    margin-top: -15px;
     background-color: white;
     color: black;
     border: none;
@@ -266,7 +266,7 @@ main section img {
     border-radius: 20px;
     border-style: double;
     border-width: 10px;
-    margin-top: -10px;
+    margin-top: -50px;
     margin-left: auto;
 }
 
@@ -274,7 +274,7 @@ main section img {
     color:#2FF3E0;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 45%;
-    margin-top: -17%;
+    margin-top: -13%;
     text-decoration: underline;   
 }
 
@@ -283,27 +283,38 @@ main section img {
     width: 600px;
     margin-right: 40px;
     margin-left: 250px;
-    margin-top: -20px;
+    margin-top: -10px;
     background-color: white;
     color: black;
     border: none;
     text-align: justify;   
 }
 
+.virtualwb-img{
+    margin-bottom: -30px;
+
+}
 .disclaimer-card{
     grid-column: 2;
     grid-row: 4;
+    margin-top: -70px;
 }
 
 .disclaimer-card p{
     text-align: justify;
     width: 900px;
-    margin-top: -60px;
+    margin-top: -100px;
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.disclaimer-card h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 35px;
+}
 .forum-card p{
     text-align: justify;
     width: 900px;
@@ -311,6 +322,7 @@ main section img {
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 30px;
 }
 
 /* CSS for 2nd subpage */
